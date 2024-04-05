@@ -67,7 +67,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Documentation
+          Documentation de la WCS !
         </a>
       </section>
 
