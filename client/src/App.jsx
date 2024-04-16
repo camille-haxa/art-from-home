@@ -1,5 +1,7 @@
 import RoomList from "./components/RoomList";
 import "./App.scss";
+import Navbar from "./components/Navbar";
+import WelcomeCard from "./components/WelcomeCard";
 
 const listArt = [
   {
@@ -56,16 +58,24 @@ const listArt = [
 
 function App() {
   return (
-    <div>
-      {listArt.map((a) => (
-        <RoomList
-          listArt={listArt}
-          key={a.id}
-          nameRoom={a.nameRoom}
-          imageRoom={a.imageRoom}
-        />
-      ))}
-    </div>
+    <>
+      <nav>
+        <Navbar />
+      </nav>
+      <div>
+        <WelcomeCard />
+      </div>
+      <div>
+        {listArt.map((a) => (
+          <RoomList
+            listArt={listArt}
+            key={a.id}
+            nameRoom={a.nameRoom}
+            imageRoom={a.imageRoom}
+          />
+        ))}
+      </div>
+    </>
   );
 }
 
