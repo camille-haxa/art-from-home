@@ -1,6 +1,7 @@
 import RoomList from "./components/RoomList";
 import "./App.scss";
 import Navbar from "./components/Navbar";
+import WelcomeCard from "./components/WelcomeCard";
 
 const listArt = [
   {
@@ -58,7 +59,12 @@ const listArt = [
 function App() {
   return (
     <>
-      <Navbar />
+      <nav>
+        <Navbar />
+      </nav>
+      <div>
+        <WelcomeCard />
+      </div>
       <div>
         {listArt.map((a) => (
           <RoomList
