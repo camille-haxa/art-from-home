@@ -1,17 +1,8 @@
-/* {
-    outline: solid 1px red;
-    }*/
-
-* {
-  margin: 0;
-  font-family: monospace;
-}
-
-.navbar-logo {
+.navbarLogo {
   width: 11vw;
 }
 
-ul {
+.navbarList {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -19,7 +10,7 @@ ul {
   font-size: 13px;
 }
 
-a {
+.navbarLink {
   text-decoration: none;
   padding: 0 15px;
   margin: 20px;
@@ -28,24 +19,24 @@ a {
   border-radius: 10px;
 }
 
-nav {
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: solid 2px black;
   padding: 2px 2px;
 }
-span {
+.arrow {
   font-size: larger;
   font-weight: 600;
 }
 
 @media screen and (min-width: 900px) {
-  .navbar-logo {
+  .navbarLogo {
     width: 11vw;
   }
 
-  ul {
+  .navbarList {
     font-size: 25px;
   }
 }
