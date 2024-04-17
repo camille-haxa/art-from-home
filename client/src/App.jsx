@@ -2,6 +2,7 @@ import RoomList from "./components/RoomList";
 import "./App.scss";
 import Navbar from "./components/Navbar";
 import WelcomeCard from "./components/WelcomeCard";
+import Footer from "./components/Footer";
 
 const listArt = [
   {
@@ -75,6 +76,7 @@ function App() {
           />
         ))}
       </div>
+      <Footer />
     </>
   );
 }

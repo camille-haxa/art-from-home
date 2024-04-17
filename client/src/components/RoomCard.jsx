@@ -3,9 +3,9 @@ import "./RoomCardStyle.scss";
 
 function RoomCard({ nameRoom, imageRoom }) {
   return (
-    <div>
-      <img src={imageRoom} alt={nameRoom} />
-      <p>{nameRoom}</p>
+    <div className="roomList">
+      <img src={imageRoom} alt={nameRoom} className="imgRoom" />
+      <p className="nameRoom">{nameRoom}</p>
     </div>
   );
 }
