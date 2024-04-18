@@ -10,7 +10,14 @@ require("./database/client").checkConnection();
 const app = require("./app/config");
 
 // Get the port from the environment variables
-const port = process.env.APP_PORT;
+const port = 3310;
+
+// Create route
+const data = require("./listArt.json");
+
+app.get("/data", (req, res) => {
+  res.json(data);
+});
 
 // Start the server and listen on the specified port
 app
