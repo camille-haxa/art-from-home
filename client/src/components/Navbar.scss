@@ -1,0 +1,42 @@
+.navbarLogo {
+  width: 11vw;
+}
+
+.navbarList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-size: 13px;
+}
+
+.navbarLink {
+  text-decoration: none;
+  padding: 0 15px;
+  margin: 20px;
+  background-color: #d7b9b9;
+  color: black;
+  border-radius: 10px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 2px black;
+  padding: 2px 2px;
+}
+.arrow {
+  font-size: larger;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 900px) {
+  .navbarLogo {
+    width: 11vw;
+  }
+
+  .navbarList {
+    font-size: 25px;
+  }
+}
