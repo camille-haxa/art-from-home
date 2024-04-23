@@ -2,8 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import CollectionPage from "./pages/CollectionPage";
+import Home from "./components/Home";
 import App from "./App";
+import DisplayArtPage from "./pages/DisplayArtPage";
 
 const router = createBrowserRouter([
   {
@@ -11,9 +12,13 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/collection",
-        element: <CollectionPage />,
-        loader: () => fetch("http://localhost:3000/listArt"),
+        path: "/",
+        element: <Home />,
+        loader: () => fetch("http://localhost:3310/data"),
+      },
+      {
+        path: "/art/:id",
+        element: <DisplayArtPage />,
       },
     ],
   },

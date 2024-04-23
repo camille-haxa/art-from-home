@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar">
       <img
         className="navbarLogo"
-        src="/src/assets/images/logo300.webp"
+        src="/src/assets/images/logop2.png"
         alt="logo Art from home"
       />
 
