@@ -1,18 +1,17 @@
 import PropTypes from "prop-types";
-import "./RoomCardStyle.scss";
 
-function RoomCard({ nameRoom, imageRoom }) {
+function RoomCard({ image, name }) {
   return (
-    <div className="roomList">
-      <img src={imageRoom} alt={nameRoom} className="imgRoom" />
-      <p className="nameRoom">{nameRoom}</p>
+    <div>
+      <p>{name}</p>
+      <img src={image} alt="Oeuvre d'art" />
     </div>
   );
 }
 
 RoomCard.propTypes = {
-  nameRoom: PropTypes.string.isRequired,
-  imageRoom: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
 };
 
 export default RoomCard;

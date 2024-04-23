@@ -1,62 +1,73 @@
 [
     {
       "id": 1,
-      "nameRoom": "Mythology",
+      "name": "Mythology",
       "description": "A mythology is a collection of myths or stories about a specific person, culture, religion, or any group with shared beliefs. Most people don’t consider mythology to be entirely true, but they still take it seriously.",
-      "imageRoom": "./src/assets/images/ancient-mythology.jpg"
+      "image": "https://www.artic.edu/iiif/2/d9f9e2d6-9b08-9dd4-41ef-53fbef138281/full/843,/0/default.jpg" ,
+      "category" : "sculptures"
     },
     {
       "id": 2,
-      "nameRoom": "Japanese Art",
+      "name": "Japanese Art",
       "description":"Japanese art consists of a wide range of art styles and media that includes ancient pottery, sculpture, ink painting and calligraphy on silk and paper, ukiyo-e paintings and woodblock prints, ceramics, origami, bonsai, and more recently manga and anime.",
-      "imageRoom": "./src/assets/images/art-of-japanese.png"
+      "image": "https://www.artic.edu/iiif/2/832ed765-ee3e-4ce0-39e1-fe599c2ffa72/full/843,/0/default.jpg",
+      "category" : "others"
     },
     {
       "id": 3,
-      "nameRoom": "Cats in Art",
+      "name": "Cats in Art",
       "description": "cats have left their paw prints in the world of art history, appearing in a range of artistic styles and cultural contexts. They have been portrayed as sacred beings, domestic companions, playful creatures, and symbols of various traits and emotions. Their enduring presence in art reflects the enduring fascination and admiration humans have had for these enigmatic animals.", 
-      "imageRoom": "./src/assets/images/cats-art.jpg"
+      "image": "https://www.artic.edu/iiif/2/e8e67721-bbb1-d007-82bd-c430ea73db70/full/843,/0/default.jpg",
+      "category" : "paintings"
     },
     {
       "id": 4,
-      "nameRoom": "Contemporary photography",
+      "name": "Contemporary photography",
       "description": "Contemporary in the art world refers to artworks created in the present time or very recent past. Usually, contemporary artists are usually alive and still actively working. Therefore, contemporary photography can be described as a photograph made during our lifetime",
-      "imageRoom": "./src/assets/images/photography-comtemporary.jpg"
+      "image": "https://www.artic.edu/iiif/2/706e0ec3-7288-24e2-c8d2-093008b81df6/full/843,/0/default.jpg",
+      "category" : "others"
     },
     {
       "id": 5,
-      "nameRoom": "Purple room",
+      "name": "Purple room",
       "description": "The modern English word purple comes from the Old English purpul, which derives from Latin purpura, which, in turn, derives from the Greek πορφύρα (porphura), the name of the Tyrian purple dye manufactured in classical antiquity from a mucus secreted by the spiny dye-murex snail. The first recorded use of the word purple dates to the late 900s AD.",
-      "imageRoom": "./src/assets/images/purple_art.jpg"
+      "image": "https://www.artic.edu/iiif/2/5d78f929-927b-332f-4995-1c17eb85d8f0/full/843,/0/default.jpg",
+      "category" : "colors"
     },
     {
       "id": 6,
-      "nameRoom": "Claude Monet",
+      "name": "Claude Monet",
       "description": "Oscar-Claude Monet (UK: /ˈmɒneɪ/, US: /moʊˈneɪ, məˈ-/, French: [klod mɔnɛ]; 14 November 1840 – 5 December 1926) was a French painter and founder of impressionist painting who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it.[1] During his long career, he was the most consistent and prolific practitioner of impressionism's philosophy of expressing one's perceptions of nature, especially as applied to plein air (outdoor) landscape painting.[2] The term Impressionism is derived from the title of his painting Impression, soleil levant, exhibited in 1874 (the exhibition of rejects) initiated by Monet and his associates as an alternative to the Salon.",
-      "imageRoom": "./src/assets/images/claude-monet.jpg"
+      "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg",
+      "category" : "paintings"
     },
     {
       "id": 7,
-      "nameRoom": "Pink room",
+      "name": "Pink room",
       "description": "The color pink is named after the flowers, pinks, flowering plants in the genus Dianthus, and derives from the frilled edge of the flowers. The verb to pink dates from the 14th century and means to decorate with a perforated or punched pattern (possibly from German picken, to peck). It has survived to the current day in pinking shears, hand-held scissors that cut a zig-zagged line to prevent fraying. ",
-      "imageRoom": "./src/assets/images/pink.jpg"
+      "image": "https://www.artic.edu/iiif/2/b4183df5-66bd-27b3-f2c3-8916cab52caf/full/843,/0/default.jpg",
+      "category" : "colors"
     },
     {
       "id": 8,
-      "nameRoom": "360° view experience",
+      "name": "360°",
       "description": "360-degree videos, also known as surround video,[1] or immersive videos[2] or spherical videos,[3] are video recordings where a view in every direction is recorded at the same time, shot using an omnidirectional camera or a collection of cameras. The term 360x180 can be used to indicate 360° of azimuth and 180° from nadir to zenith. During playback on normal flat display the viewer has control of the viewing direction like a panorama. It can also be played on a display or projectors arranged in a sphere or some part of a sphere. ",
-      "imageRoom": "./src/assets/images/view-experience.jpg"
+      "image": "https://www.artic.edu/iiif/2/f98b3be5-4658-cbcf-4aee-fe7813d8934a/full/843,/0/default.jpg",
+      "category" : "sculptures"
     },
     {
       "id": 9,
-      "nameRoom": "Egyptian metal",
+      "name": "Egyptian metal",
       "description":"Ancient Egyptian art refers to art produced in ancient Egypt between the 6th millennium BC and the 4th century AD, spanning from Prehistoric Egypt until the Christianization of Roman Egypt. It includes paintings, sculptures, drawings on papyrus, faience, jewelry, ivories, architecture, and other art media. It was a conservative tradition whose style changed very little over time. Much of the surviving examples comes from tombs and monuments, giving insight into the ancient Egyptian afterlife beliefs.",
-      "imageRoom": "./src/assets/images/egyptian-metal.jpg"
+      "image": "https://www.artic.edu/iiif/2/01a63a93-8e8f-bcfa-63f2-43c6bc4ddb2c/full/843,/0/default.jpg",
+      "category" : "others"
+
     },
     {
       "id": 10,
-      "nameRoom": "Japanese Ceramics",
+      "name": "Japanese Ceramics",
       "description": "Pottery and porcelain (陶磁器, tōjiki, also yakimono (焼きもの), or tōgei (陶芸)) is one of the oldest Japanese crafts and art forms, dating back to the Neolithic period.[1] Kilns have produced earthenware, pottery, stoneware, glazed pottery, glazed stoneware, porcelain, and blue-and-white ware. Japan has an exceptionally long and successful history of ceramic production. Earthenwares were made as early as the Jōmon period (10,500–300 BC), giving Japan one of the oldest ceramic traditions in the world. Japan is further distinguished by the unusual esteem that ceramics hold within its artistic tradition, owing to the enduring popularity of the tea ceremony",
-      "imageRoom": "./src/assets/images/ceramics-japanese.jpg"
+      "image": "https://www.artic.edu/iiif/2/49e504d5-b3cc-ea8c-41b3-60c9c743d9dc/full/843,/0/default.jpg",
+      "category" : "others"
     }
   ]
