@@ -19,6 +19,8 @@ const router = createBrowserRouter([
       {
         path: "/art/:id",
         element: <DisplayArtPage />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:3310/data/${params.id}`),
       },
     ],
   },

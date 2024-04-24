@@ -20,7 +20,14 @@ app.get("/data", (req, res) => {
 });
 
 app.get("/data/:id", (req, res) => {
-  res.json(dataArt);
+  const paramsId = parseInt(req.params.id, 10);
+  const arts = dataArt.find((t) => t.id === paramsId);
+
+  if (!arts) {
+    res.status(404);
+  } else {
+    res.json(arts);
+  }
 });
 // Start the server and listen on the specified port
 app
