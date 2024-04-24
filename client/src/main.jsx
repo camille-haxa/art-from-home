@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home";
 import App from "./App";
 import DisplayArtPage from "./pages/DisplayArtPage";
+import CategoryArtPage from "./pages/CategoryArtPage";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,13 @@ const router = createBrowserRouter([
         path: "/art/:id",
         element: <DisplayArtPage />,
         loader: ({ params }) =>
-          fetch(`http://localhost:3310/data/${params.id}`),
+          fetch(`http://localhost:3310/data/i/${params.id}`),
+      },
+      {
+        path: "/filter/:category",
+        element: <CategoryArtPage />,
+        loader: ({ params }) =>
+          fetch(`http://localhost:3310/data/c/${params.category}`),
       },
     ],
   },

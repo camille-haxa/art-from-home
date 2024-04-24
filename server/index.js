@@ -19,7 +19,7 @@ app.get("/data", (req, res) => {
   res.json(dataArt);
 });
 
-app.get("/data/:id", (req, res) => {
+app.get("/data/i/:id", (req, res) => {
   const paramsId = parseInt(req.params.id, 10);
   const arts = dataArt.find((t) => t.id === paramsId);
 
@@ -29,6 +29,21 @@ app.get("/data/:id", (req, res) => {
     res.json(arts);
   }
 });
+
+app.get("/data/c/:category", (req, res) => {
+  const paramsCategory = req.params.category;
+
+  const artCategory = dataArt.filter((a) =>
+    a.category.includes(paramsCategory)
+  );
+
+  if (!artCategory) {
+    res.status(404);
+  } else {
+    res.json(artCategory);
+  }
+});
+
 // Start the server and listen on the specified port
 app
   .listen(port, () => {
