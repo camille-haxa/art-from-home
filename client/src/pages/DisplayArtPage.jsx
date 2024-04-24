@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, NavLink } from "react-router-dom";
 
 export default function DisplayArtPage() {
   const displayData = useLoaderData();
@@ -6,6 +6,8 @@ export default function DisplayArtPage() {
 
   return (
     <div>
+      <NavLink to="/">Back</NavLink>
+
       <h1>{name}</h1>
       <img src={image} alt="" />
       <p>{description}</p>
