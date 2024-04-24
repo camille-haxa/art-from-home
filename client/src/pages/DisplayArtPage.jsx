@@ -1,8 +1,8 @@
 import { useLoaderData } from "react-router-dom";
 
 export default function DisplayArtPage() {
-  const artsData = useLoaderData();
-  const { name, description, image } = artsData;
+  const displayData = useLoaderData();
+  const { name, description, image } = displayData;
 
   return (
     <div>
