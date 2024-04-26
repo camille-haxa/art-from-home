@@ -15,19 +15,19 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch("http://localhost:3310/data"),
+        loader: () => fetch(`${import.meta.env.VITE_API_URL}/data`),
       },
       {
         path: "/art/:id",
         element: <DisplayArtPage />,
         loader: ({ params }) =>
-          fetch(`http://localhost:3310/data/i/${params.id}`),
+          fetch(`${import.meta.env.VITE_API_URL}/data/i/${params.id}`),
       },
       {
         path: "/filter/:category",
         element: <CategoryArtPage />,
         loader: ({ params }) =>
-          fetch(`http://localhost:3310/data/c/${params.category}`),
+          fetch(`${import.meta.env.VITE_API_URL}/data/c/${params.category}`),
       },
     ],
   },

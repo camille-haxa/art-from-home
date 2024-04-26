@@ -1,6 +1,18 @@
+import { useState } from "react";
+import DropdownMenu from "./DropdownMenu";
 import "./Navbar.scss";
 
 function Navbar() {
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
+
+  const handleClick = () => {
+    setDropdownVisible(true);
+  };
+
+  const handleMouseLeave = () => {
+    setDropdownVisible(false);
+  };
+
   return (
     <nav className="navbar">
       <a href="/">
@@ -18,9 +30,16 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="/">
-            exhibition rooms <span className="arrow">↓</span>{" "}
-          </a>
+          <button
+            type="button"
+            onClick={handleClick}
+            onKeyDown={handleClick}
+            onMouseLeave={handleMouseLeave}
+            className="dropDown"
+          >
+            Category
+          </button>
+          {isDropdownVisible && <DropdownMenu />}
         </li>
       </ul>
     </nav>
