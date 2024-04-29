@@ -1,20 +1,20 @@
 import { NavLink } from "react-router-dom";
-import "./Navbar.scss";
+import "./LandingPage.scss";
 
 export default function DropdownMenu() {
   return (
     <div>
-      <ul>
-        <NavLink to="/filter/sculptures">
+      <ul className="listDropDown">
+        <NavLink to="/filter/Sculptures">
           <li>Sculpture</li>
         </NavLink>
-        <NavLink to="/filter/paintings">
+        <NavLink to="/filter/Paintings">
           <li>Paintings</li>
         </NavLink>
-        <NavLink to="/filter/colors">
+        <NavLink to="/filter/Colors">
           <li>Colors</li>
         </NavLink>
-        <NavLink to="/filter/others">
+        <NavLink to="/filter/Others">
           <li>Others</li>
         </NavLink>
       </ul>

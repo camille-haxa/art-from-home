@@ -1,4 +1,5 @@
 import { useLoaderData, NavLink } from "react-router-dom";
+import "./LandingPage.scss";
 
 export default function Filters() {
   const filterData = useLoaderData();
@@ -11,10 +12,12 @@ export default function Filters() {
   }
 
   return (
-    <div>
+    <div className="buttonFilterAll">
       {uniqueCategories?.map((u) => (
         <NavLink to={`/filter/${u}`} key={u}>
-          <button type="button">{u}</button>
+          <button type="button" className="buttonFilter">
+            {u}
+          </button>
         </NavLink>
       ))}
     </div>

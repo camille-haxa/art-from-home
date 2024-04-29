@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import App from "./App";
 import DisplayArtPage from "./pages/DisplayArtPage";
 import CategoryArtPage from "./pages/CategoryArtPage";
+import DisplayCategoryArtPage from "./pages/DisplayCategoryArtPage";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,12 @@ const router = createBrowserRouter([
         element: <CategoryArtPage />,
         loader: ({ params }) =>
           fetch(`${import.meta.env.VITE_API_URL}/data/c/${params.category}`),
+      },
+      {
+        path: "/filterart/:id",
+        element: <DisplayCategoryArtPage />,
+        loader: ({ params }) =>
+          fetch(`${import.meta.env.VITE_API_URL}/data/i/${params.id}`),
       },
     ],
   },

@@ -1,0 +1,54 @@
+.categoryFilterPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
+
+.imgCategoryFilter {
+  opacity: 0.8;
+  border-radius: 5px;
+  width: 25vw;
+  height: 25vw;
+}
+
+.imgCategoryFilter:hover {
+  opacity: 100%;
+  transform: scale(1.2);
+  transition: transform 300ms ease-in-out;
+}
+
+.buttonBack {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  border-style: solid 1px;
+}
+
+.buttonBackSecond {
+  border-radius: 10px;
+  border-style: none;
+  background-color: #d7b9b9;
+  box-shadow: 2px 1px 4px black;
+}
+
+.nameCategory {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+  .imgCategoryFilter {
+    display: flex;
+    width: 25vh;
+    height: 25vh;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .imgCategoryFilter {
+    width: 30vh;
+    height: 30vh;
+  }
+}

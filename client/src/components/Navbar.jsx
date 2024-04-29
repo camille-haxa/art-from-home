@@ -1,16 +1,13 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import DropdownMenu from "./DropdownMenu";
-import "./Navbar.scss";
+import "./LandingPage.scss";
 
 function Navbar() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
 
   const handleClick = () => {
-    setDropdownVisible(true);
-  };
-
-  const handleMouseLeave = () => {
-    setDropdownVisible(false);
+    setDropdownVisible(!isDropdownVisible);
   };
 
   return (
@@ -18,23 +15,22 @@ function Navbar() {
       <a href="/">
         <img
           className="navbarLogo"
-          src="/src/assets/images/logop2.png"
+          src="/src/assets/images/logo300.png"
           alt="logo Art from home"
         />
       </a>
 
       <ul className="navbarList">
-        <li className="navbar-item">
-          <a href="/" className="navbarLink">
+        <li>
+          <Link rel="stylesheet" to="/" className="buttonAccueil">
             Accueil
-          </a>
+          </Link>
         </li>
         <li>
           <button
             type="button"
             onClick={handleClick}
             onKeyDown={handleClick}
-            onMouseLeave={handleMouseLeave}
             className="dropDown"
           >
             Category

@@ -1,0 +1,254 @@
+* {
+  font-family: monospace;
+  margin: 0;
+}
+
+// Navbar
+
+.navbarLogo {
+  width: 15vw;
+  height: 18vw;
+}
+
+.navbarList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-size: 20px;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid 1px black;
+  padding: 2px 2px;
+  margin: 0;
+}
+
+.buttonAccueil {
+  text-decoration: none;
+  padding: 0 15px;
+  margin: 10px;
+  background-color: #d7b9b9;
+  color: black;
+  border-radius: 10px;
+  font-size: 12px;
+  box-shadow: 2px 1px 4px black;
+}
+
+.dropDown {
+  text-decoration: none;
+  padding: 0 15px;
+  margin: 0 10px;
+  color: black;
+  border-radius: 10px;
+  background-color: #d7b9b9;
+  border-style: none;
+  font-size: 12px;
+  box-shadow: 2px 1px 4px black;
+}
+
+.listDropDown {
+  color: black;
+  padding: 0;
+  list-style: none;
+  margin-left: 20px;
+  position: absolute;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+// art from home Image
+
+.welcomeImage {
+  height: 80vw;
+  width: 100%;
+}
+
+.welcomeLogo {
+  height: 60vw;
+  width: 60vw;
+  position: absolute;
+  top: 9rem;
+  left: 5.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.description {
+  padding: 2rem;
+}
+
+// bouton Filtre
+
+.buttonFilterAll {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonFilter {
+  margin: 9px;
+  border-radius: 10px;
+  background-color: #d7b9b9;
+  border-style: none;
+  box-shadow: 2px 1px 4px black;
+}
+
+// Main
+
+.allArt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+}
+
+.uniqueArt {
+  display: flex;
+  align-items: center;
+}
+
+.imgArt {
+  width: 35vw;
+  height: 35vw;
+  border-radius: 15px;
+  opacity: 60%;
+}
+
+.imgArt:hover {
+  opacity: 100%;
+  transform: scale(1.2);
+  transition: transform 300ms ease-in-out;
+}
+// Footer
+
+.footer {
+  border-top: solid 2px black;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.footer {
+  border-top: black solid 1px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.listFooter {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 600px) {
+  .navbarLogo {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .buttonAccueil {
+    font-size: 1rem;
+    margin: 0 20px;
+  }
+
+  .dropDown {
+    font-size: 1rem;
+    margin: 0 20px;
+  }
+
+  .listDropDown {
+    font-size: 1rem;
+    margin-left: 30px;
+  }
+  .welcomeImage {
+    height: 60vw;
+    width: 100%;
+  }
+
+  .welcomeLogo {
+    height: 45vw;
+    width: 45vw;
+    top: 9rem;
+    left: 13rem;
+  }
+  .description {
+    padding: 3rem 7rem;
+  }
+  .buttonFilterAll {
+    margin-bottom: 3rem;
+  }
+  .buttonFilter {
+    margin: 0 1.6rem;
+    font-size: 1rem;
+  }
+  .imgArt {
+    width: 20vw;
+    height: 20vw;
+  }
+  .allArt {
+    padding-bottom: 4em;
+    gap: 3em;
+  }
+  .listFooter {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .navbarLogo {
+    width: 8vw;
+    height: 8vw;
+  }
+  .buttonAccueil {
+    font-size: 1rem;
+    margin: 0 20px;
+  }
+  .dropDown {
+    font-size: 1rem;
+    margin: 0 30px;
+  }
+  .listDropDown {
+    font-size: 1rem;
+    margin-left: 40px;
+  }
+  .welcomeImage {
+    height: 42vw;
+    width: 100%;
+  }
+  .welcomeLogo {
+    height: 35vw;
+    width: 35vw;
+    top: 9rem;
+    left: 22rem;
+  }
+  .description {
+    padding: 4rem 15rem;
+  }
+  .buttonFilterAll {
+    margin-bottom: 3rem;
+  }
+  .buttonFilter {
+    margin: 0 4rem;
+    font-size: 1rem;
+  }
+  .imgArt {
+    width: 12vw;
+    height: 12vw;
+  }
+  .allArt {
+    padding-bottom: 4em;
+  }
+}

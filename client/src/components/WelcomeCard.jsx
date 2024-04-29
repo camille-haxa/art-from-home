@@ -1,4 +1,4 @@
-import "./WelcomeCard.scss";
+import "./LandingPage.scss";
 
 function WelcomeCard() {
   return (
@@ -14,9 +14,10 @@ function WelcomeCard() {
         alt=""
       />
       <p className="description">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque earum
-        suscipit numquam mollitia fugit voluptatum, facere impedit incidunt
-        deserunt?
+        View art from anywhere, everywhere, you can browse the art on display
+        and click on the images to view them in details and learn more about the
+        selected artworks, you can also use the filters to browse through the
+        different categories.
       </p>
     </>
   );
