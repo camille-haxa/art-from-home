@@ -1,11 +1,10 @@
 import { useLoaderData, NavLink } from "react-router-dom";
 import { useEffect } from "react";
 import "./DisplayArtPageCss.scss";
-import "../components/Category.scss";
 
-export default function DisplayArtPage() {
+export default function DisplayCategoryArtPage() {
   const displayData = useLoaderData();
-  const { name, description, image, alt } = displayData;
+  const { name, description, image, category, alt } = displayData;
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -13,7 +12,7 @@ export default function DisplayArtPage() {
   return (
     <div>
       <div className="buttonBack">
-        <NavLink to="/">
+        <NavLink to={`/filter/${category}`}>
           <button type="button" className="buttonBackSecond">
             Back
           </button>

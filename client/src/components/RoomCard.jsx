@@ -1,13 +1,12 @@
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
-import "./RoomCardStyle.scss";
+import "./LandingPage.scss";
 
-function RoomCard({ image, name, id }) {
+function RoomCard({ image, id, alt }) {
   return (
-    <div>
+    <div className="uniqueArt">
       <NavLink to={`/art/${id}`}>
-        <p>{name}</p>
-        <img src={image} alt="Oeuvre d'art" className="imgArt" />
+        <img src={image} alt={alt} className="imgArt" />
       </NavLink>
     </div>
   );
@@ -16,7 +15,7 @@ function RoomCard({ image, name, id }) {
 RoomCard.propTypes = {
   id: PropTypes.number.isRequired,
   image: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
 };
 
 export default RoomCard;

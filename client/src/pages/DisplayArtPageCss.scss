@@ -1,0 +1,44 @@
+.displayArtImg {
+  width: 80vw;
+  height: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  margin-top: 4rem;
+  filter: drop-shadow(0 0 0.5rem);
+}
+
+.displayArtName {
+  margin: 1rem;
+  margin-top: 3rem;
+}
+
+.displayArtDescription {
+  padding: 0 3rem;
+  padding-bottom: 5rem;
+}
+
+.pageDisplayArt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 900px) {
+  .displayArtImg {
+    width: 40vw;
+    height: 40vw;
+    padding-top: 2rem;
+  }
+
+  .displayArtName {
+    padding-top: 2rem;
+  }
+
+  .displayArtDescription {
+    padding: 1rem 15rem;
+    padding-bottom: 5rem;
+  }
+}
