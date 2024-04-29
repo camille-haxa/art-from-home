@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import DropdownMenu from "./DropdownMenu";
+import logosmall from "../assets/images/logo300.png"
 import "./LandingPage.scss";
 
 function Navbar() {
@@ -15,7 +16,7 @@ function Navbar() {
       <a href="/">
         <img
           className="navbarLogo"
-          src="/src/assets/images/logo300.png"
+          src={logosmall}
           alt="logo Art from home"
         />
       </a>
