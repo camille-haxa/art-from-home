@@ -13,10 +13,35 @@ const app = require("./app/config");
 const port = 3310;
 
 // Create route
-const data = require("./listArt.json");
+const dataArt = require("./listArt.json");
 
 app.get("/data", (req, res) => {
-  res.json(data);
+  res.json(dataArt);
+});
+
+app.get("/data/i/:id", (req, res) => {
+  const paramsId = parseInt(req.params.id, 10);
+  const arts = dataArt.find((t) => t.id === paramsId);
+
+  if (!arts) {
+    res.status(404);
+  } else {
+    res.json(arts);
+  }
+});
+
+app.get("/data/c/:category", (req, res) => {
+  const paramsCategory = req.params.category;
+
+  const artCategory = dataArt.filter((a) =>
+    a.category.includes(paramsCategory)
+  );
+
+  if (!artCategory) {
+    res.status(404);
+  } else {
+    res.json(artCategory);
+  }
 });
 
 // Start the server and listen on the specified port

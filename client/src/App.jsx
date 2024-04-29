@@ -1,6 +1,5 @@
-import "./App.scss";
+import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import WelcomeCard from "./components/WelcomeCard";
 import Footer from "./components/Footer";
 
 function App() {
@@ -10,10 +9,11 @@ function App() {
         <Navbar />
       </nav>
       <div>
-        <WelcomeCard />
+        <Outlet />
       </div>
-
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

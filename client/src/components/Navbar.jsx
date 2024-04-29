@@ -1,24 +1,41 @@
-import "./Navbar.scss";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import DropdownMenu from "./DropdownMenu";
+import "./LandingPage.scss";
 
 function Navbar() {
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
+
+  const handleClick = () => {
+    setDropdownVisible(!isDropdownVisible);
+  };
+
   return (
     <nav className="navbar">
-      <img
-        className="navbarLogo"
-        src="/src/assets/images/logo300.webp"
-        alt="logo Art from home"
-      />
+      <a href="/">
+        <img
+          className="navbarLogo"
+          src="/src/assets/images/logo300.png"
+          alt="logo Art from home"
+        />
+      </a>
 
       <ul className="navbarList">
-        <li className="navbar-item">
-          <a href="/" className="navbarLink">
+        <li>
+          <Link rel="stylesheet" to="/" className="buttonAccueil">
             Accueil
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/">
-            exhibition rooms <span className="arrow">↓</span>{" "}
-          </a>
+          <button
+            type="button"
+            onClick={handleClick}
+            onKeyDown={handleClick}
+            className="dropDown"
+          >
+            Category
+          </button>
+          {isDropdownVisible && <DropdownMenu />}
         </li>
       </ul>
     </nav>

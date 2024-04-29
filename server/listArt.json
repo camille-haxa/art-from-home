@@ -1,62 +1,218 @@
 [
     {
       "id": 1,
-      "nameRoom": "Mythology",
-      "description": "A mythology is a collection of myths or stories about a specific person, culture, religion, or any group with shared beliefs. Most people don’t consider mythology to be entirely true, but they still take it seriously.",
-      "imageRoom": "./src/assets/images/ancient-mythology.jpg"
+      "name": "Mythology",
+      "description": "A mythology is a collection of myths or stories about a specific person, culture, religion, or any group with shared beliefs. Most people don’t consider mythology to be entirely true, but they still take it seriously. Pair of Protomes Depicting the Forepart of a Griffin - 625-575 BCE - Greek; probably Samos",
+      "image": "https://www.artic.edu/iiif/2/d9f9e2d6-9b08-9dd4-41ef-53fbef138281/full/843,/0/default.jpg" ,
+      "category" : "Sculptures",
+      "alt": "pair of sculptures"
     },
     {
       "id": 2,
-      "nameRoom": "Japanese Art",
-      "description":"Japanese art consists of a wide range of art styles and media that includes ancient pottery, sculpture, ink painting and calligraphy on silk and paper, ukiyo-e paintings and woodblock prints, ceramics, origami, bonsai, and more recently manga and anime.",
-      "imageRoom": "./src/assets/images/art-of-japanese.png"
+      "name": "Japanese Art",
+      "description":"Japanese art consists of a wide range of art styles and media that includes ancient pottery, sculpture, ink painting and calligraphy on silk and paper, ukiyo-e paintings and woodblock prints, ceramics, origami, bonsai, and more recently manga and anime. Plate - Artist unknown - 1701–1800 - Japan",
+      "image": "https://www.artic.edu/iiif/2/832ed765-ee3e-4ce0-39e1-fe599c2ffa72/full/843,/0/default.jpg",
+      "category" : "Others",
+      "alt": "plate with 3 blue fishes"
     },
     {
       "id": 3,
-      "nameRoom": "Cats in Art",
-      "description": "cats have left their paw prints in the world of art history, appearing in a range of artistic styles and cultural contexts. They have been portrayed as sacred beings, domestic companions, playful creatures, and symbols of various traits and emotions. Their enduring presence in art reflects the enduring fascination and admiration humans have had for these enigmatic animals.", 
-      "imageRoom": "./src/assets/images/cats-art.jpg"
+      "name": "Cats in Art",
+      "description": "cats have left their paw prints in the world of art history, appearing in a range of artistic styles and cultural contexts. They have been portrayed as sacred beings, domestic companions, playful creatures, and symbols of various traits and emotions. Their enduring presence in art reflects the enduring fascination and admiration humans have had for these enigmatic animals. Winter: Cat on a Cushion - Théophile-Alexandre Steinlen - 1909 -  Lithograph in 6 colors (red, ochre, yellow, black, gray-brown, brown) from two stones, with scraping on stone, on ivory wove paper", 
+      "image": "https://www.artic.edu/iiif/2/e8e67721-bbb1-d007-82bd-c430ea73db70/full/843,/0/default.jpg",
+      "category" : "Paintings",
+      "alt":"a cat on a cushion"
     },
     {
       "id": 4,
-      "nameRoom": "Contemporary photography",
+      "name": "Photography",
       "description": "Contemporary in the art world refers to artworks created in the present time or very recent past. Usually, contemporary artists are usually alive and still actively working. Therefore, contemporary photography can be described as a photograph made during our lifetime",
-      "imageRoom": "./src/assets/images/photography-comtemporary.jpg"
+      "image": "https://www.artic.edu/iiif/2/706e0ec3-7288-24e2-c8d2-093008b81df6/full/843,/0/default.jpg",
+      "category" : "Others"
     },
     {
       "id": 5,
-      "nameRoom": "Purple room",
+      "name": "Purple",
       "description": "The modern English word purple comes from the Old English purpul, which derives from Latin purpura, which, in turn, derives from the Greek πορφύρα (porphura), the name of the Tyrian purple dye manufactured in classical antiquity from a mucus secreted by the spiny dye-murex snail. The first recorded use of the word purple dates to the late 900s AD.",
-      "imageRoom": "./src/assets/images/purple_art.jpg"
+      "image": "https://www.artic.edu/iiif/2/5d78f929-927b-332f-4995-1c17eb85d8f0/full/843,/0/default.jpg",
+      "category" : "Colors"
     },
     {
       "id": 6,
-      "nameRoom": "Claude Monet",
-      "description": "Oscar-Claude Monet (UK: /ˈmɒneɪ/, US: /moʊˈneɪ, məˈ-/, French: [klod mɔnɛ]; 14 November 1840 – 5 December 1926) was a French painter and founder of impressionist painting who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it.[1] During his long career, he was the most consistent and prolific practitioner of impressionism's philosophy of expressing one's perceptions of nature, especially as applied to plein air (outdoor) landscape painting.[2] The term Impressionism is derived from the title of his painting Impression, soleil levant, exhibited in 1874 (the exhibition of rejects) initiated by Monet and his associates as an alternative to the Salon.",
-      "imageRoom": "./src/assets/images/claude-monet.jpg"
+      "name": "Claude Monet",
+      "description": "Oscar-Claude Monet (UK: /ˈmɒneɪ/, US: /moʊˈneɪ, məˈ-/, French: [klod mɔnɛ]; 14 November 1840 – 5 December 1926) was a French painter and founder of impressionist painting who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it.[1] During his long career, he was the most consistent and prolific practitioner of impressionism's philosophy of expressing one's perceptions of nature, especially as applied to plein air (outdoor) landscape painting.[2] The term Impressionism is derived from the title of his painting Impression, soleil levant, exhibited in 1874 (the exhibition of rejects) initiated by Monet and his associates as an alternative to the Salon. Cliff Walk at Pourville - Claude monet - 1882 - France",
+      "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg",
+      "category" : "Paintings",
+      "alt":"two women on a cliff"
     },
     {
       "id": 7,
-      "nameRoom": "Pink room",
+      "name": "Pink",
       "description": "The color pink is named after the flowers, pinks, flowering plants in the genus Dianthus, and derives from the frilled edge of the flowers. The verb to pink dates from the 14th century and means to decorate with a perforated or punched pattern (possibly from German picken, to peck). It has survived to the current day in pinking shears, hand-held scissors that cut a zig-zagged line to prevent fraying. ",
-      "imageRoom": "./src/assets/images/pink.jpg"
+      "image": "https://www.artic.edu/iiif/2/b4183df5-66bd-27b3-f2c3-8916cab52caf/full/843,/0/default.jpg",
+      "category" : "Colors"
     },
     {
       "id": 8,
-      "nameRoom": "360° view experience",
+      "name": "360°",
       "description": "360-degree videos, also known as surround video,[1] or immersive videos[2] or spherical videos,[3] are video recordings where a view in every direction is recorded at the same time, shot using an omnidirectional camera or a collection of cameras. The term 360x180 can be used to indicate 360° of azimuth and 180° from nadir to zenith. During playback on normal flat display the viewer has control of the viewing direction like a panorama. It can also be played on a display or projectors arranged in a sphere or some part of a sphere. ",
-      "imageRoom": "./src/assets/images/view-experience.jpg"
+      "image": "https://www.artic.edu/iiif/2/f98b3be5-4658-cbcf-4aee-fe7813d8934a/full/843,/0/default.jpg",
+      "category" : "Sculptures"
     },
     {
       "id": 9,
-      "nameRoom": "Egyptian metal",
+      "name": "Egyptian metal",
       "description":"Ancient Egyptian art refers to art produced in ancient Egypt between the 6th millennium BC and the 4th century AD, spanning from Prehistoric Egypt until the Christianization of Roman Egypt. It includes paintings, sculptures, drawings on papyrus, faience, jewelry, ivories, architecture, and other art media. It was a conservative tradition whose style changed very little over time. Much of the surviving examples comes from tombs and monuments, giving insight into the ancient Egyptian afterlife beliefs.",
-      "imageRoom": "./src/assets/images/egyptian-metal.jpg"
+      "image": "https://www.artic.edu/iiif/2/01a63a93-8e8f-bcfa-63f2-43c6bc4ddb2c/full/843,/0/default.jpg",
+      "category" : "Others"
+
     },
     {
       "id": 10,
-      "nameRoom": "Japanese Ceramics",
+      "name": "Japanese Ceramics",
       "description": "Pottery and porcelain (陶磁器, tōjiki, also yakimono (焼きもの), or tōgei (陶芸)) is one of the oldest Japanese crafts and art forms, dating back to the Neolithic period.[1] Kilns have produced earthenware, pottery, stoneware, glazed pottery, glazed stoneware, porcelain, and blue-and-white ware. Japan has an exceptionally long and successful history of ceramic production. Earthenwares were made as early as the Jōmon period (10,500–300 BC), giving Japan one of the oldest ceramic traditions in the world. Japan is further distinguished by the unusual esteem that ceramics hold within its artistic tradition, owing to the enduring popularity of the tea ceremony",
-      "imageRoom": "./src/assets/images/ceramics-japanese.jpg"
-    }
+      "image": "https://www.artic.edu/iiif/2/49e504d5-b3cc-ea8c-41b3-60c9c743d9dc/full/843,/0/default.jpg",
+      "category" : "Others"
+    },
+    {
+      "id": 11,
+      "name": "Amulet of Bes",
+      "description": " Late Period–Ptolemaic Period (664–30 BCE) - Egypt - The dwarf Bes, with his feathered headdress, lion mane and tail, and protruding tongue, was the protector of women and children. Huge numbers of amulets were made of him in the Ptolemaic period. Amulet of Bes - Egypt - 700BCE-1BCE",
+      "image": "https://www.artic.edu/iiif/2/46ca2bdf-9311-06d2-5cb9-b3a54735c784/full/843,/0/default.jpg",
+      "category" : "Sculptures"
+      },
+      {
+      "id": 12,
+      "name": "Georges Seurat",
+      "description": " 1884/85 -Seated woman with a parasol (study for La Grande Jatte) - Georges Seurat French, 1859-1891 - During 1884 and 1885, Georges Seurat was hard at work on the most ambitious painting of his career, A Sunday on La Grande Jatte—1884, The artist’s genesis of this large canvas involved many preparatory studies, which fall primarily into two groups: small compositional sketches and color studies on wooden panels, and nuanced Conté crayon drawings that explore both the empty landscape and the shapes of specific figures or figural groups. In this contemplative drawing, Seurat developed the expressive contours of the seated female figure holding a parasol that would ultimately occupy the center of the finished painting.",
+      "image": "https://www.artic.edu/iiif/2/8769be30-7bda-37f2-16a8-30e5396d47dc/full/843,/0/default.jpg" ,
+      "category" : "Paintings"
+      },
+      {
+      "id": 13,
+      "name": "Vincent van Gogh",
+      "description": " 1887 - self-portrait - Dutch, 1853-1890 - In 1886 Vincent van Gogh left his native Holland and settled in Paris, where his beloved brother Theo was a dealer in paintings. Van Gogh created at least twenty-four self-portraits during his two-year stay in the energetic French capital. This early example is modest in size and was painted on prepared artist’s board rather than canvas. From Paris, Van Gogh traveled to the southern town of Arles for fifteen months. At the time of his death, in 1890, he had actively pursued his art for only five years.",
+      "image": "https://www.artic.edu/iiif/2/26d3cea8-44c0-bfbd-a91a-19a007517152/full/843,/0/default.jpg" ,
+      "category" : "Paintings"
+      },
+      {"id": 14,
+      "name": "Young bull",
+      "description": " c. 1496, erroneously inscribed in another hand 1508 - Albrecht Dürer,  German, 1471–1528 - From an early age, Albrecht Dürer displayed an inquisitive mind and exceptional talent as a draftsman. He was born in Nuremberg and first trained as a goldsmith in his father’s shop before apprenticing with the painter Michael Wolgemut. One of his earliest animal drawings, _Young Steer_ shows its subject grazing in an unseen field. The artist’s sure strokes and adept cross-hatching delineate the steer’s sculptural form, with taut skin stretched over a strong yet bony frame. Dürer’s precise draftsmanship recalls the drawings and prints of the celebrated German master Martin Schongauer, whom he greatly admired. This work was probably a study from nature; sketchy lines around the animal’s right hind foot, back, muzzle, and horns reveal that the artist originally drew the steer in a slightly different position, with his mouth open. ",
+      "image": "https://www.artic.edu/iiif/2/d2529576-bbf0-c631-6f8c-659e825c552d/full/843,/0/default.jpg" ,
+      "category" : "Others"
+      },
+      {"id": 15,
+      "name": "Blue",
+      "description": " Blue has been an important colour in art and decoration since ancient times. The semi-precious stone lapis lazuli was used in ancient Egypt for jewellery and ornament and later, in the Renaissance, to make the pigment ultramarine, the most expensive of all pigments. In the eighth century Chinese artists used cobalt blue to colour fine blue and white porcelain. In the Middle Ages, European artists used it in the windows of cathedrals. Europeans wore clothing coloured with the vegetable dye woad until it was replaced by the finer indigo from America. In the 19th century, synthetic blue dyes and pigments gradually replaced organic dyes and mineral pigments. Bag - United States - 1830/35 - Cotton, plain weave; beaded with glass and metal beads; lined with silk, plain weave; edged with silk and cotton cording; two ribbons: silk and cotton, plain weave; drawstrings: silk, plain weave ",
+      "image": "https://www.artic.edu/iiif/2/ce23d4f8-2fca-d11a-2bf9-f25c83e4f1cc/full/843,/0/default.jpg",
+      "category" : "Colors"
+      },
+      {
+        "id": 17,
+        "name": "Soga Shōhaku",
+        "description":"Soga Shōhaku (曾我 蕭白, 1730 – January 30, 1781) was a Japanese painter of the Edo period. Shōhaku distinguished himself from his contemporaries by preferring the brush style of the Muromachi period, an aesthetic that was already passé 150 years before his birth. His monstrous depictions of prominent figures were extremely unusual compared to other painters of his time. School of Fish - Soga Shôhaku - Date unknown - Japan",
+        "image": "https://www.artic.edu/iiif/2/1a553c42-b76c-eb08-52e2-7bc343838eea/full/843,/0/default.jpg",
+        "category" : "Paintings",
+        "alt": "it shows a river of fishes"
+      },
+      {
+        "id": 18,
+        "name": "Henry Spencer Moore",
+        "description":"Henry Spencer Moore (30 July 1898 – 31 August 1986) was an English artist. He is best known for his semi-abstract monumental bronze sculptures which are located around the world as public works of art. Moore also produced many drawings, including a series depicting Londoners sheltering from the Blitz during the Second World War, along with other graphic works on paper. Sculpture - Henry Moore - 1935 - England",
+        "image": "https://www.artic.edu/iiif/2/5731e6b8-25e2-21a0-d079-01c81abfd196/full/843,/0/default.jpg",
+        "category" : "Sculptures",
+        "alt": "a with sculpture with a black background "
+      },
+      {
+        "id": 19,
+        "name": "Piet Mondrian",
+        "description":"Pieter Cornelis Mondriaan (Dutch: [ˈpi:tər kɔrˈneːlɪs ˈmɔndrijaːn]), after 1906 known as Piet Mondrian (/piːt ˈmɒndriɑːn/, also US: /- ˈmɔːn-/, Dutch: [pit ˈmɔndrijɑn]; 7 March 1872 – 1 February 1944), was a Dutch painter and art theoretician who is regarded as one of the greatest artists of the 20th century. He is known for being one of the pioneers of 20th-century abstract art, as he changed his artistic direction from figurative painting to an increasingly abstract style, until he reached a point where his artistic vocabulary was reduced to simple geometric elements. Composition (No. 1) Gray-Red - Piet Mondrian - 1935 - Netherlands",
+        "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
+        "category" : "Paintings",
+        "alt": "it shows somes lines with differents squares in differents sizes and colors "
+      },
+      {
+        "id": 20,
+        "name": "Pop Art",
+        "description":"Pop art is an art movement that emerged in the United Kingdom and the United States during the mid- to late-1950s. The movement presented a challenge to traditions of fine art by including imagery from popular and mass culture, such as advertising, comic books and mundane mass-produced objects. One of its aims is to use images of popular culture in art, emphasizing the banal or kitschy elements of any culture, most often through the use of irony.It is also associated with the artists' use of mechanical means of reproduction or rendering techniques. In pop art, material is sometimes visually removed from its known context, isolated, or combined with unrelated material. Liz #3 [Early Colored Liz] - Andy Warhol - 1963 - United States",
+        "image": "https://www.artic.edu/iiif/2/362c0c2a-4576-2207-4ba9-2b87e6d0bad0/full/843,/0/default.jpg",
+        "category" : "Paintings",
+        "alt":"a painting of Elizabeth Taylor"
+      },
+      {
+        "id": 21,
+        "name": "Blue",
+        "description":"Blue has been an important colour in art and decoration since ancient times. The semi-precious stone lapis lazuli was used in ancient Egypt for jewellery and ornament and later, in the Renaissance, to make the pigment ultramarine, the most expensive of all pigments.In the eighth century Chinese artists used cobalt blue to colour fine blue and white porcelain. In the Middle Ages, European artists used it in the windows of cathedrals. Europeans wore clothing coloured with the vegetable dye woad until it was replaced by the finer indigo from America. In the 19th century, synthetic blue dyes and pigments gradually replaced organic dyes and mineral pigments. Dark blue became a common colour for military uniforms and later, in the late 20th century, for business suits. Because blue has commonly been associated with harmony, it was chosen as the colour of the flags of the United Nations and the European Union.",
+        "image": "https://www.artic.edu/iiif/2/f9f27280-affc-7e5c-87e2-969afd377bc5/full/843,/0/default.jpg",
+        "category" : "Colors"
+      },
+      {
+        "id": 22,
+        "name": "Keith Haring",
+        "description":"Keith Allen Haring (May 4, 1958 – February 16, 1990) was an American artist whose pop art emerged from the New York City graffiti subculture of the 1980s. His animated imagery has become a widely recognized visual language. Much of his work includes sexual allusions that turned into social activism by using the images to advocate for safe sex and AIDS awareness. In addition to solo gallery exhibitions, he participated in renowned national and international group shows such as documenta in Kassel, the Whitney Biennial in New York, the São Paulo Biennial, and the Venice Biennale. The Whitney Museum held a retrospective of his art in 1997. Untitled (Pair of Vases) - Keith Haring - 1981 - United States",
+        "image": "https://www.artic.edu/iiif/2/cb41ceec-42a2-fdf3-ff54-531a8239afb5/full/843,/0/default.jpg",
+        "category" : "Sculptures",
+        "alt": "A pair of vases with some drawings"
+      },
+      {
+        "id": 23,
+        "name": "Eugène Delacroix",
+        "description":"Ferdinand Victor Eugène Delacroix (/ˈdɛləkrwɑː, ˌdɛləˈkrwɑː/ DEL-ə-krwah, -⁠KRWAH, French: [øʒɛn dəlakʁwa]; 26 April 1798 – 13 August 1863) was a French Romantic artist regarded from the outset of his career as the leader of the French Romantic school.In contrast to the Neoclassical perfectionism of his chief rival Ingres, Delacroix took for his inspiration the art of Rubens and painters of the Venetian Renaissance, with an attendant emphasis on colour and movement rather than clarity of outline and carefully modelled form. Dramatic and romantic content characterized the central themes of his maturity, and led him not to the classical models of Greek and Roman art, but to travel in North Africa, in search of the exotic. Friend and spiritual heir to Théodore Géricault, Delacroix was also inspired by Lord Byron, with whom he shared a strong identification with the forces of the sublime, of nature in often violent action. The Combat of the Giaour and Hassan - Eugène Delacoix - 1826 - France",
+        "image": "https://www.artic.edu/iiif/2/d4574667-943d-6e28-ec30-fe9c91eeeca1/full/843,/0/default.jpg",
+        "category" : "Paintings",
+        "alt": "a painting which shows a combat between two soldiers "
+      },
+      {
+        "id": 24,
+        "name": "Portaits",
+        "description":"A portrait is a painting, photograph, sculpture, or other artistic representation of a person, in which the face and its expressions are predominant. The intent is to display the likeness, personality, and even the mood of the person. For this reason, in photography a portrait is generally not a snapshot, but a composed image of a person in a still position. A portrait often shows a person looking directly at the painter or photographer, to most successfully engage the subject with the viewer.",
+        "image": "https://www.artic.edu/iiif/2/114422d0-99e5-7172-5005-d5ac5b04d4bd/full/843,/0/default.jpg",
+        "category" : "Others"
+      },
+      {
+        "id": 25,
+        "name": "Black",
+        "description":"Black was one of the first colors used by artists in Neolithic cave paintings.It was used in ancient Egypt and Greece as the color of the underworld. In Ancient Egypt, black had positive associations; being the color of fertility and the rich black soil flooded by the Nile. In the Roman Empire, it became the color of mourning, and over the centuries it was frequently associated with death, evil, witches, and magic. In the 14th century, it was worn by royalty, clergy, judges, and government officials in much of Europe. It became the color worn by English romantic poets, businessmen and statesmen in the 19th century, and a high fashion color in the 20th century.According to surveys in Europe and North America, it is the color most commonly associated with mourning, the end, secrets, magic, force, violence, fear, evil, and elegance.",
+        "image": "https://www.artic.edu/iiif/2/54c3c09b-c794-111f-88da-6e122e80dc45/full/843,/0/default.jpg",
+        "category" : "Colors"
+      },
+      {
+        "id": 26,
+        "name": "African diaspora",
+        "description":"The global African diaspora is the worldwide collection of communities descended from people from Africa, predominantly in the Americas. The African populations in the Americas are descended from haplogroup L genetic groups of native Africans. The term most commonly refers to the descendants of the native West and Central Africans who were enslaved and shipped to the Americas via the Atlantic slave trade between the 16th and 19th centuries, with their largest populations in the United States, Brazil, and Haiti (in that order).However, the term can also be used to refer to African descendants who immigrated to other parts of the world consensually. Some scholars identify four circulatory phases of this migration out of Africa.The phrase African diaspora gradually entered common usage at the turn of the 21st century.The term diaspora originates from the Greek διασπορά (diaspora, scattering) which gained popularity in English in reference to the Jewish diaspora before being more broadly applied to other populations. Sharecropper - Elizabeth Catlett - 1952 - United States",
+        "image": "https://www.artic.edu/iiif/2/f3c68069-b982-886d-8c07-d4108732a58e/full/843,/0/default.jpg",
+        "category" : "Paintings",
+        "alt": "black women in the South of US"
+      },
+      {
+        "id": 27,
+        "name": "Paul Huet",
+        "description":"Paul Huet (3 October 1803 – 8 January 1869) was a French painter and printmaker born in Paris. He studied under Gros and Guerin.He met the English painter Richard Parkes Bonington in the studio of Gros, where he studied irregularly from 1819 to 1822. Bonington's example influenced Huet to reject neoclassicism and instead paint landscapes based on close observation of nature. The British landscape paintings exhibited in the Salon of 1824 were a revelation to Huet, who said of Constable's work: It was the first time perhaps that one felt the freshness, that one saw a luxuriant, verdant nature, without blackness, crudity or mannerism. Huet's subsequent work combined emulation of the English style with inspiration derived from Dutch and Flemish old masters such as Rubens, Jacob van Ruisdael, and Meindert Hobbema. Sur la route de Nice - Paul Huet - About 1844 - France",
+        "image": "https://www.artic.edu/iiif/2/9525f133-b343-baef-7586-d3f657e7ae73/full/843,/0/default.jpg",
+        "category" : "Paintings",
+        "alt": "a painting which shows a path with people"
+      },
+      {
+        "id": 28,
+        "name": "Untitled (Portrait of Ross in L.A)",
+        "description":"Felix Gonzalez-Torres produced meaningful and restrained sculptural forms out of common materials. “Untitled” (Portrait of Ross in L.A.) consists of an ideal weight of 175 pounds of shiny, commercially distributed candy. The work’s physical form and scale change with each display, affected by its placement in the gallery as well as audience interactions. Regardless of its physical shape, the label lists its ideal weight, likely corresponding to the average body weight of an adult male, or perhaps the ideal weight of the subject referred to in the title, Ross Laycock, the artist’s partner who died of complications from AIDS in 1991, as did Gonzalez-Torres in 1996. As visitors take candy, the configuration changes, linking the participatory action with loss—even though the work holds the potential for endless replenishment. “Untitled” (Portrait of Ross in L.A.) - Felix Gonzalez-Torres - 1991 - United States",
+        "image": "https://www.artic.edu/iiif/2/9036870e-9ec4-19ab-3d73-3cbf79c1af8b/full/843,/0/default.jpg",
+        "category" : "Sculptures",
+        "alt": "a pill of candies"
+      },
+      {
+        "id": 29,
+        "name": "Green",
+        "description":"During post-classical and early modern Europe, green was the color commonly associated with wealth, merchants, bankers, and the gentry, while red was reserved for the nobility. For this reason, the costume of the Mona Lisa by Leonardo da Vinci and the benches in the British House of Commons are green while those in the House of Lords are red.It also has a long historical tradition as the color of Ireland and of Gaelic culture. It is the historic color of Islam, representing the lush vegetation of Paradise. It was the color of the banner of Muhammad, and is found in the flags of nearly all Islamic countries.",
+        "image": "https://www.artic.edu/iiif/2/e00a200e-eaf8-4394-8fea-bc8a1de17e88/full/843,/0/default.jpg",
+        "category" : "Colors"
+      },
+      {
+        "id": 30,
+        "name": "Le Corbusier",
+        "description":"Charles-Édouard Jeanneret (6 October 1887 – 27 August 1965), known as Le Corbusier (UK: /lə kɔːrˈbjuːzieɪ/ lə kor-BEW-zee-ay, US: /lə ˌkɔːrbuːˈzjeɪ, -ˈsjeɪ/ lə KOR-boo-ZYAY, -⁠SYAY,French: [lə kɔʁbyzje]),was a Swiss-French architect, designer, painter, urban planner and writer, who was one of the pioneers of what is now regarded as modern architecture. He was born in Switzerland and acquired French nationality by naturalization on 19 September 1930. His career spanned five decades, in which he designed buildings in Europe, Japan, India, as well as North and South America. He considered that the roots of modern architecture are to be found in Viollet-le-Duc. Club de Centre Rural: Perspective Sketch - Le Corbusier - 1943 - France",
+        "image": "https://www.artic.edu/iiif/2/28513c3e-ef16-0101-568c-9e752b53ce8a/full/843,/0/default.jpg",
+        "category" : "Others",
+        "alt": "a sketch with airy space in which clusters of people congregate"
+      }
   ]
